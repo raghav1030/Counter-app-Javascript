@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+</head>
+<body>
+    
+    <!-- wrapper -->
+    <div class="h-[100vh] w-[100vw] bg-[#344151] flex flex-col justify-center items-center gap-10 box-sizing-border-box ">
+        <div class="text-[#0398d4] text-[20px] font-medium ">
+            Increment and Decrement
+        </div>
+
+        <div class="flex justify-space-between bg-white text-[25px] text-[#344151] gap-12 rounded-sm p-3 px-5 ">
+            <!-- minus button -->
+            <button id="neg-btn" onclick="decrement()" class=" border-r-2 border-[#bfbfbf]  pr-5 ">
+                <i class="fi fi-sr-minus-small"></i>
+            </button>
+
+            <div class="counter font-bold ">
+                0
+            </div>
+
+            <!-- plus button -->
+            <button id="pos-btn" onclick="increment()" class="pos-btn border-l-2 border-[#bfbfbf] pl-5  ">
+                <i class="fi fi-sr-plus-small"></i>
+            </button>
+        </div>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html> 
